@@ -22,7 +22,7 @@ const Header = () => {
           <div className={style.logo}>
             <img src={logo_img.img_url} />
           </div>
-          <a href="tel:+9989011951625" className={style.call_icon}>
+          <a href="tel:+998889333121" className={style.call_icon}>
             <MdCall size={24} color="#68513F" />
           </a>
           <div className={style.propirte}>
@@ -44,11 +44,11 @@ const Header = () => {
           <div className={style.contact}>
             <div className={style.contact_numbir}>
               <a href="">
-                <span>+998 000 00 00</span>
+                <span>+998 88 933 31 21</span>
               </a>
             </div>
             <div className={style.contact_call}>
-              <a href="tel:+998901951625" className={style.icon}>
+              <a href="tel:+998889333121" className={style.icon}>
                 <img src="Vector.png" alt="" />
               </a>
             </div>

@@ -32,11 +32,6 @@ const Footer = () => {
                   return <li key={valeu.id}>{valeu.value}</li>;
                 })}
               </ul>
-              <ul className={style.content_ul_2}>
-                {item_2.data_2.map((valeu) => {
-                  return <li key={valeu.id}>{valeu.value}</li>;
-                })}
-              </ul>
             </div>
           </div>
           <div className={style.item_3}>

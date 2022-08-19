@@ -116,40 +116,18 @@ export const deafultValue = {
           value: "FAQs",
         },
       ],
-      data_2: [
-        {
-          id: 0,
-          value: "Contact Us",
-        },
-        {
-          id: 1,
-          value: "Instructions",
-        },
-        {
-          id: 2,
-          value: "Style Guide",
-        },
-        {
-          id: 3,
-          value: "Licenses",
-        },
-        {
-          id: 4,
-          value: "Changelog",
-        },
-      ],
     },
     item_3: {
       title: "Contact us",
       p_value_1: "Have questions or suggestions?",
       p_value_2: "Need assistance? Give us a call.",
-      span_value_1: "hello@shopbreand.com",
-      span_value_2: "+998 00 000 00 00",
+      span_value_1: "zuxrasevarafarm@gmail.com",
+      span_value_2: "+998 88 933 31 21",
     },
     item_4: {
       title: "We’re here for you",
       h4_value: "Our address:",
-      p_value_1: "142 Mirzo Ulugbek Street,",
+      p_value_1: "1 Navoi Shox Street,",
       p_value_2: " Samarkand, Uzbekistan",
       p_value_3: "Monday - Thursday: 9:30 - 18:00",
       p_value_4: "Friday: 9:30 - 15:00",
