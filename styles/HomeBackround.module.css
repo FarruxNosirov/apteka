@@ -1,0 +1,176 @@
+.Homebac {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.HomeBackround_container {
+  width: 100%;
+  height: 750px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.content_description {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.content_bcg_img {
+  top: 0;
+  position: absolute;
+  height: 750px;
+  width: 938px;
+  right: 0px;
+  top: 0px;
+  border-radius: 10px;
+  background-image: url("../public/IMAGE.png");
+  z-index: 1s;
+  transition: all 0.5s ease-in-out;
+}
+.description_container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 620px;
+  left: 50px;
+  padding-left: 10px;
+}
+.text {
+  position: relative;
+}
+.text h1 {
+  font-family: "STSong";
+  font-style: normal;
+}
+.btn_img {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_img img {
+  transform: rotate(5.54deg);
+  height: 181px;
+  width: 256px;
+  border-radius: nullpx;
+}
+.btn_img button {
+  height: 45px;
+  width: 143px;
+  left: 50px;
+  border-radius: 0px;
+  margin-top: 33px;
+  background: #f1ebe7;
+  border: 1px solid #dacec6;
+  outline: none;
+  cursor: pointer;
+  color: #68513f;
+}
+.btn_img button:active {
+  transform: scale(0.98);
+}
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 1340px;
+}
+.mobile {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+  background-image: url("../public/IMAGE.png");
+  z-index: 1s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.5s ease-in-out;
+}
+@media (min-width: 320px) {
+  .container {
+    width: 95%;
+  }
+  .mobile {
+    opacity: 1;
+  }
+  .content_bcg_img {
+    opacity: 0;
+  }
+  .description_container {
+    width: 320px;
+    left: 0;
+    padding: 0;
+  }
+  .btn_img img {
+    height: 121px;
+    width: 196px;
+  }
+  .text h1 {
+    font-weight: 300;
+    font-size: 41px;
+    color: white;
+  }
+  .btn_img {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    width: 95%;
+  }
+  .btn_img {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .description_container {
+    width: 620px;
+    left: 50px;
+    padding-left: 10px;
+  }
+  .btn_img img {
+    height: 181px;
+    width: 256px;
+  }
+  .text h1 {
+    font-weight: 300;
+    font-size: 81px;
+  }
+}
+@media (min-width: 1000px) {
+  .container {
+    width: 95%;
+  }
+  .mobile {
+    opacity: 0;
+  }
+  .content_bcg_img {
+    opacity: 1;
+  }
+}
+@media (min-width: 1000px) {
+  .text h1 {
+    color: black;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1340px;
+  }
+}

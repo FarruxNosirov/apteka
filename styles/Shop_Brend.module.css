@@ -1,0 +1,343 @@
+.Shop_Brend {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  margin: 20px 0;
+}
+.Shop_Brend_container {
+  left: 0%;
+  right: 0%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+}
+.two_content {
+  border-radius: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.two_content h1 {
+  font-family: "STSong";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 65px;
+  padding: 0;
+  margin: 0;
+}
+.two_content h2 {
+  font-family: "STSong";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 70px;
+  margin: 0;
+  padding: 0;
+}
+.two_content_img {
+  top: 0;
+  position: relative;
+}
+.two_content_img img {
+  width: 608px;
+  height: 170px;
+}
+.two_content p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+.two_content button {
+  height: 45px;
+  background: #f1ebe7;
+  border: 1px solid #dacec6;
+  border-radius: 73px;
+  width: 149px;
+}
+.one_content {
+  height: 100%;
+  position: relative;
+}
+
+.one_content .one_content_img_1 {
+  height: 183px;
+  width: 221px;
+  border-radius: 10px;
+}
+
+.one_content .one_content_img_2 {
+  height: 220px;
+  width: 221px;
+  border-radius: 10px;
+}
+.one_content div img {
+  width: 100%;
+  height: 100%;
+}
+.three_content {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.three_content > div img {
+  width: 100%;
+  height: 100%;
+}
+.three_content .two_content_img_1 {
+  height: 201px;
+  width: 159px;
+  border-radius: 10px;
+}
+.three_content .two_content_img_2 {
+  height: 114px;
+  width: 221px;
+
+  border-radius: 10px;
+}
+.three_content .two_content_img_3 {
+  height: 220px;
+  width: 222px;
+  border-radius: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 1340px;
+}
+
+@media (min-width: 320px) {
+  .container {
+    width: 95%;
+  }
+  .Shop_Brend_container {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .one_content {
+    display: flex;
+    flex-direction: column;
+  }
+  .three_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .three_content > div {
+    position: relative;
+  }
+  .three_content .two_content_img_1 {
+    margin-bottom: 10px;
+    width: 220px;
+    height: 222px;
+  }
+
+  .three_content .two_content_img_2 {
+    margin-bottom: 10px;
+    width: 220px;
+    height: 222px;
+  }
+  .one_content > div {
+    position: relative;
+  }
+  .one_content .one_content_img_1 {
+    height: 183px;
+    width: 221px;
+  }
+
+  .one_content .one_content_img_2 {
+    height: 183px;
+    width: 221px;
+  }
+  .two_content {
+    height: 500px;
+  }
+  .two_content h1 {
+    font-size: 35px;
+  }
+  .two_content h2 {
+    font-size: 40px;
+  }
+  .two_content_img img {
+    width: 310px;
+    height: 70px;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    width: 95%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .one_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .three_content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .two_content {
+    width: 600px;
+  }
+  .two_content h1 {
+    font-size: 65px;
+  }
+  .two_content h2 {
+    font-size: 70px;
+  }
+  .two_content_img img {
+    width: 408px;
+    height: 100px;
+  }
+}
+@media (min-width: 1000px) {
+  .container {
+    width: 95%;
+  }
+  .one_content {
+    width: 257px;
+    display: flex;
+    flex-direction: column;
+  }
+  .two_content {
+    width: 550px;
+  }
+  .three_content {
+    width: 257px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .three_conten > div {
+    position: relative;
+  }
+  .one_content .one_content_img_1 {
+    top: 117px;
+    height: 123px;
+    width: 161px;
+  }
+  .one_content .one_content_img_2 {
+    bottom: 228px;
+    left: 70px;
+    height: 160px;
+    width: 161px;
+  }
+  .three_content .two_content_img_1 {
+    top: 21px;
+    height: 141px;
+    width: 99px;
+  }
+  .three_content .two_content_img_2 {
+    top: 266px;
+    height: 54px;
+    width: 161px;
+    right: 7.99%;
+  }
+  .three_content .two_content_img_3 {
+    height: 160px;
+    width: 162px;
+    top: 400px;
+  }
+  .Shop_Brend_container {
+    height: 746px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .two_content h1 {
+    font-size: 35px;
+  }
+  .two_content h2 {
+    font-size: 40px;
+  }
+
+  .three_content > div {
+    position: absolute;
+  }
+  .one_content > div {
+    position: absolute;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+  .one_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 317px;
+  }
+  .two_content {
+    width: 600px;
+  }
+  .two_content h1 {
+    font-size: 65px;
+  }
+  .two_content h2 {
+    font-size: 70px;
+  }
+  .three_content {
+    width: 317px;
+  }
+  .one_content .one_content_img_1 {
+    height: 183px;
+    width: 221px;
+  }
+
+  .one_content .one_content_img_2 {
+    height: 220px;
+    width: 221px;
+  }
+  .three_content .two_content_img_1 {
+    height: 201px;
+    width: 159px;
+  }
+  .three_content .two_content_img_2 {
+    height: 114px;
+    width: 221px;
+  }
+  .three_content .two_content_img_3 {
+    height: 220px;
+    width: 222px;
+    top: 569px;
+  }
+  .Shop_Brend_container {
+    height: 946px;
+  }
+  .two_content_img img {
+    width: 608px;
+    height: 170px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1340px;
+  }
+  .two_content {
+    width: 700px;
+    height: 500px;
+  }
+}

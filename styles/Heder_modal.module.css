@@ -1,0 +1,74 @@
+.Heder_modal {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.416);
+  left: -100%;
+  transition: all 0.5s ease-in;
+  z-index: 100;
+}
+.content_container {
+  width: 320px;
+  background-color: white;
+  height: 100%;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo div {
+  width: 85px;
+  height: 60px;
+}
+.logo div img {
+  width: 100%;
+  height: 100%;
+}
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.propirte {
+  display: flex;
+  justify-content: center;
+}
+.propirte ul {
+  padding: 0;
+}
+
+.propirte ul li {
+  margin-top: 5px;
+}
+.contact {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.contact_numbir {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_call {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e7ded8;
+  margin-left: 8px;
+}
+.contact_call .icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

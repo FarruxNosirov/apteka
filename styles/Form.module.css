@@ -1,0 +1,135 @@
+.Form {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.Form_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  width: 100%;
+  text-align: center;
+}
+.title h2 {
+  font-family: "STSong";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+.form_input {
+  margin-top: 71px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form_input input {
+  width: 195px;
+  height: 50px;
+  border: 1px solid #bdbdbd;
+  border-radius: 46px;
+  margin: 16px;
+  color: #bdbdbd;
+  padding-left: 20px;
+  outline: none;
+  font-size: 16px;
+}
+.form_input button {
+  width: 195px;
+  height: 50px;
+  border: 1px solid #bdbdbd;
+  border-radius: 46px;
+  margin: 16px;
+  outline: none;
+  cursor: pointer;
+  background: #e7ded8;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  height: 50px;
+}
+/* .footer div {
+  top: 0;
+  position: absolute;
+  width: 40%;
+  right: -40px;
+} */
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 1340px;
+}
+
+@media (min-width: 320px) {
+  .container {
+    width: 95%;
+  }
+  .torm_top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer div {
+    top: 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  .Form {
+    margin-top: 44px;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    width: 95%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .torm_top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .footer div {
+    top: 0;
+    position: absolute;
+    width: 40%;
+    right: -40px;
+  }
+}
+@media (min-width: 1000px) {
+  .container {
+    width: 95%;
+  }
+  .Form {
+    margin-top: 84px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1340px;
+  }
+}
