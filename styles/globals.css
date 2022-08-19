@@ -67,6 +67,7 @@ li {
 button {
   cursor: pointer;
   outline: none;
+  color: #68513f;
 }
 button:active {
   transform: scale(0.95);

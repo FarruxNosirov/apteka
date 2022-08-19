@@ -32,7 +32,7 @@ const Products = () => {
                     <h3 className={style.tatil}>{item.title}</h3>
                   </div>
                   <div className={style.item_btn}>
-                    <button>Shop now</button>
+                    <button>For reference</button>
                   </div>
                 </div>
               );
