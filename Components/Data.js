@@ -46,7 +46,7 @@ export const deafultValue = {
         name: "SHAMPOO",
         img_url: "/img.png",
         total: "115 000 UZS",
-        title: "THE COSMETIC REPUBLIC ROOT CONCEALER",
+        title: "The cosmetic republic root concealer",
       },
       {
         id: 5,
